@@ -19,7 +19,7 @@ var autoModeratorModel = require('app/base/Class').extend({
 		API.on(API.CHAT,          this.proxy.chat);
 		API.on(API.CHAT_COMMAND,  this.proxy.chatCommand);
 		console.log('AutoModerator version ' + this.version + ' now running!')
-		API.sendChat('Project Cupdake ' + this.version + ' now running!')
+		API.sendChat('Project Rainbows ' + this.version + ' Initiated!')
 	},
 	close: function() {
 		API.off(API.CHAT,          this.proxy.onChat);
