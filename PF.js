@@ -5,8 +5,8 @@ String.prototype.equalsIgnoreCase     = function(other)    { return typeof other
 var autoModeratorModel = require('app/base/Class').extend({
   version: "1.0.3",
 	bannedWords: [
-		'fuck',
-		'shit',
+		'fan me',
+		'is now your fan',
 
                
 	],
@@ -18,8 +18,8 @@ var autoModeratorModel = require('app/base/Class').extend({
 		}
 		API.on(API.CHAT,          this.proxy.chat);
 		API.on(API.CHAT_COMMAND,  this.proxy.chatCommand);
-		console.log('AutoModerator version ' + this.version + ' now running!')
-		API.sendChat('Project Rainbows ' + this.version + ' Initiated!')
+		console.log('Automoderator' + this.version + ' now running!')
+		API.sendChat('Automoderator ' + this.version + 'now running!')
 	},
 	close: function() {
 		API.off(API.CHAT,          this.proxy.onChat);
