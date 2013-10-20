@@ -9,6 +9,13 @@ var autoModeratorModel = require('app/base/Class').extend({
 		'is now your fan',
 		'fan y fan',
 		'fan to fan',
+		'plz dar 4fan',
+		'fan4fan',
+		'Fan mane',
+		'plz fan',
+		'pls fan',
+		'fan fan fan',
+		'fan'
 		
 
                
