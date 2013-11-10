@@ -15,7 +15,7 @@ var autoModeratorModel = require('app/base/Class').extend({
 		'plz fan',
 		'pls fan',
 		'fan fan fan',
-		'fan',
+		'join my room',
 		'f.a.n',
 		'fa n',
 		'f a n',
