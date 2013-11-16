@@ -22,6 +22,7 @@ var autoModeratorModel = require('app/base/Class').extend({
 		'f an',
 		'fa n',
 		'plug.dj/',
+		'http://plug.dj'
 		
 		
 		
