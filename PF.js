@@ -6,6 +6,8 @@ var autoModeratorModel = require('app/base/Class').extend({
   version: "1.0.3",
 	bannedWords: [
 		'fan me',
+		'come to my room'
+		'come to the room'
 		'is now your fan',
 		'fan y fan',
 		'fan to fan',
